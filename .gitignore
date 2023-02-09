@@ -1,3 +1,4 @@
 *.fits
 *.ecsv
 proposal/*
+ghrs_test_fits/*
