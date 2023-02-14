@@ -122,12 +122,12 @@ def make_ghrs_file(inpath, outpath, plot=True):
         plt.show()
         
 #test
-path = '/media/david/2tb_ext_hd/hddata/ghrs_test/' #have a couple of stars in path
-stars = os.listdir(path)
-for star in stars:
-    inpath = '{}{}/'.format(path, star)
-    outpath = 'ghrs_test_fits'
+# path = '/media/david/2tb_ext_hd/hddata/ghrs_test/' #have a couple of stars in path
+# stars = os.listdir(path)
+# for star in stars:
+#     inpath = '{}{}/'.format(path, star)
+#     outpath = 'ghrs_test_fits'
     
-    make_ghrs_file(inpath, outpath, plot=True)
+#     make_ghrs_file(inpath, outpath, plot=True)
     
     
